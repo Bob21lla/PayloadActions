@@ -5,13 +5,13 @@ on:
         inputs:
             ROM_URL:
                 description: "ROM_URL"
-                default: "https://builds.paranoidandroid.co/aospa-uvite-beta-oneplus9-20240412.zip"
+                default: "https://android.googleapis.com/packages/ota-api/package/b737fa934b8c4c66a6af1e272a0be94384d9cfa3.zip"
             DEVICE_NAME:
                 description: "DEVICE_NAME"
-                default: "oneplus9"
+                default: "Revvl 7 PRO"
             EXTRACTED_FILES:
                 description: "EXTRACTED_FILES"
-                default: "boot.img, dtbo.img, product.img, system.img, system_ext.img"
+                default: "abl.img, aop.img, aop_config.img, bluetooth.img, boot.img, cpucp.img, devcfg.img, dsp.img, dtbo.img, featenabler.img, hyp.img, imagefv.img, keymaster.img, modem.img, multiimgqti.img, odm.img, product.img, qupfw.img, qweslicstore.img, recovery.img, shrm.img, system.img, system_ext.img, tz.img, uefi.img, uefisecapp.img, vbmeta.img, vbmeta_system.img, vendor.img, vendor_boot.img, vendor_dlkm.img, xbl.img, xbl_config.img, xbl_ramdump.img"
 
 jobs:
     build-and-release:
